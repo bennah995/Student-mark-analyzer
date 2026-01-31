@@ -24,6 +24,19 @@ for (stdLoop = 0; stdLoop < students.length; stdLoop++){
 
   // console.log(`The total is ${total} and the average is ${average} for ${students[stdLoop].name}`);
   
+  // grade assignment
+  let grade;
+  if (average >= 80){
+    grade = "A";
+  } else if(grade >= 70){
+    grade = "B";    
+  } else if(grade >= 60){
+    grade = "C";    
+  } else if(grade >= 50){
+    grade = "D";    
+  } else{
+    grade = "E";    
+  }
 
 
 
