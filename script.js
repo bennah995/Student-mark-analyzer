@@ -40,6 +40,4 @@ for (stdLoop = 0; stdLoop < students.length; stdLoop++){
 
 
 
-
-
 }
