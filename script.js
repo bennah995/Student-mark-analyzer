@@ -52,7 +52,16 @@ for (stdLoop = 0; stdLoop < students.length; stdLoop++){
    
   // console.log(report);
 
+  // class report printing
+  console.log(`${students[stdLoop].name}: Avg ${average} | Grade ${grade} | ${status}`);
 
 
+
+
+// 4) Print a clean class report + summary
+// Print each student like:
+
+// Amina: Avg 79.25 | Grade B | PASS
+// Brian: Avg 55.75 | Grade D | FAIL
 
 }
