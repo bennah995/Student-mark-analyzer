@@ -88,4 +88,4 @@ for (stdLoop = 0; stdLoop < students.length; stdLoop++){
     Fail: ${failCount}
     Top Student: ${TopStudent} ${TopAverage}
     Lowest Student: ${LowStudent} ${LowAverage}
-    `)
+    `);
