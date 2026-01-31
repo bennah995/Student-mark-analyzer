@@ -46,6 +46,12 @@ for (stdLoop = 0; stdLoop < students.length; stdLoop++){
     status = "FAIL";
   }
 
+  // report creation
+  let report = [];
+   report.push ({name: `${students[stdLoop].name}`, average: `${average}`, grade: `${grade}`, status: `${status}`});
+   
+  // console.log(report);
+
 
 
 
